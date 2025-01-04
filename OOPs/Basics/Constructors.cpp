@@ -39,7 +39,7 @@ public:
     }
 
     void getDetails() {
-        cout << "Name: " << name << endl;
+        cout << "Name: " << name << endl;   
         cout << "Description: " << desc << endl;
         cout << "Cuisine: " << cuisine << endl;
         cout << "Price: " << price << endl;
