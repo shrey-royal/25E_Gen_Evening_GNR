@@ -1,0 +1,15 @@
+CPP? -> It's a general purpose programming language that extends the c programming language by adding features like Object-Oriented Programming (OOP) while still allowing low-level memory manipulation
+
+-> Classes and Objects:
+
+Class:
+    A class is a blueprint or template from which we can create instances/objects. They are logical only.
+    
+Object:
+    Any real world entity can become an object. It could be physical as well as logical.
+
+
+class       - Factory. It doesn't make anithing by itself.
+Object      - The Product. What you actually get to use.
+Methods     - The Actions. Like baking or eating.
+Attributes  - The Flavor. What makes each object different.
