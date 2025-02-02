@@ -17,7 +17,6 @@ void fun() {
     Panth p;
     
     exploit(p);
-
 }
 
 int main() {
