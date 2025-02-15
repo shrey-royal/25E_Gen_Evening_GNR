@@ -35,10 +35,13 @@ public:
         cout << "ColdDrink: Serving " << name << " chilled with ice cubes." << endl;
     }
 };
-
+ 
 int main()
 {
     Drink* d = NULL;
+
+    d = new Drink("Water");
+    d->serveDrink();
 
     d = new MockTail("Virgin Mojito");
     d->serveDrink();
