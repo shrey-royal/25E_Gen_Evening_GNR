@@ -35,9 +35,13 @@ public class ScanData {
         // boolean nextBoolean = sc.nextBoolean();
         // System.out.println("nextBoolean(): " + nextBoolean);
 
-        System.out.print("Byte method input: ");
-        byte nextByte = sc.nextByte();
-        System.out.println("nextByte(): " + nextByte);
+        // System.out.print("Byte method input: ");
+        // byte nextByte = sc.nextByte();
+        // System.out.println("nextByte(): " + nextByte);
+
+        System.out.print("next method input (one-character): ");
+        char ch = sc.next().charAt(0);
+        System.out.println("next(one-character): " + ch);
 
         sc.close(); //to prevent resource leak
     }
